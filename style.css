@@ -1,1 +1,37 @@
 @import 'mdb-ui-kit/css/mdb.min.css';
+
+@font-face {
+    font-family: "Aquatico Regular";
+    src: url("./public/font/Aquatico-Regular.otf");
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("./public/font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("./public/font/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("./public/font/Roboto-Bold.ttf");
+}
+
+.aquatico-regular {
+    font-family: "Aquatico Regular" !important;
+}
+
+.roboto-regular {
+    font-family: "Roboto Regular" !important;
+}
+
+.roboto-medium {
+    font-family: "Roboto Medium" !important;
+}
+
+.roboto-bold {
+    font-family: "Roboto Bold" !important;
+}
