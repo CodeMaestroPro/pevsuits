@@ -1,13 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
+      <!-- page header -->
+      <header>
+        <!-- navbar -->
+        <nav id="navbar"></nav>
+
+        <!-- hero -->
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-6">
+            <h2 class="display-2 mt-5 text-info">Welcome to eSuites</h2>
+            <p class="lead mt-3 text-justify">
+              Every book is judged by its cover at the first glance. <br />Take
+              your fashion sense to the ultimate level. <br />
+              How you look has an impact on how you feel!
+            </p>
+
+            <a href="#" class="btn btn-info btn-lg my-3">Get Started</a>
+          </div>
+          <div class="col-md-4">
+            <img src="./public/images/1.jpg" alt="suit image" class="img-thumbnail">
+          </div>
+        </div>
+      </header>
+
+      <!-- main content -->
+      <main></main>
+
+      <!-- page footer -->
+      <footer></footer>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
