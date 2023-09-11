@@ -5,6 +5,16 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" type="text/css" rel="stylesheet" />
+    <link
+      href="./public/glide/glide.core.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link
+      href="./public/glide/glide.theme.css"
+      type="text/css"
+      rel="stylesheet"
+    />
     <title>Vite App</title>
   </head>
   <style></style>
@@ -245,6 +255,85 @@
             </div>
           </div>
         </div>
+
+        <!-- testimonials -->
+        <div class="my-generic text-center">
+          <h2 class="mb-3 mt-5 aquatico-regular">Testimonials</h2>
+          <p class="roboto-regular text-center lead">
+            See what our customers have to say about their experiences with our suits. Explore these testimonials to witness the confidence and elegance we deliver.
+          </p>
+
+          <div class="row justify-center align-items-center">
+            <div class="col-md-4">
+              <div
+                class="card my-4 text-center border border-1 border-info hvr-sink bg-tranparent shadow-4"
+              >
+                <div class="card-body">
+                  <img
+                    src="./public/testimonials/user-1.jpeg"
+                    class="img-testimonial"
+                    alt="testimonial"
+                  />
+
+                  <h5 class="card-title my-3 aquatico-regular text-left">
+                    Pever Luper Collins
+                  </h5>
+                  <p class="card-text roboto-regular text-justify">
+                    <i class="bi bi-quote text-info"></i>
+                    Absolutely impeccable tailoring! Their suits are a perfect
+                    fit, and I always feel like a million bucks wearing them.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div
+                class="card my-4 text-center border border-1 border-info hvr-sink bg-tranparent shadow-4"
+              >
+                <div class="card-body">
+                  <img
+                    src="./public/testimonials/user-4.jpg"
+                    class="img-testimonial"
+                    alt="testimonial"
+                  />
+
+                  <h5 class="card-title my-3 aquatico-regular text-left">
+                    Soo Vica
+                  </h5>
+                  <p class="card-text roboto-regular text-justify">
+                    <i class="bi bi-quote text-info"></i>
+                    I've never received so many compliments on my style until I
+                    started wearing suits from this company. 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div
+                class="card my-4 text-center border border-1 border-info hvr-sink bg-tranparent shadow-4"
+              >
+                <div class="card-body">
+                  <img
+                    src="./public/testimonials/user-3.jpg"
+                    class="img-testimonial"
+                    alt="testimonial"
+                  />
+
+                  <h5 class="card-title my-3 aquatico-regular text-left">
+                    Dogo Emmanuella
+                  </h5>
+                  <p class="card-text roboto-regular text-justify">
+                    <i class="bi bi-quote text-info"></i>
+                    Absolutely impeccable tailoring! Their suits are a perfect
+                    fit, and I always feel like a million bucks wearing them.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
 
       <!-- page footer -->
@@ -258,7 +347,7 @@
                   alt="logo"
                   width="64"
                   height="64"
-                  class=" hvr-bubble-float-bottom"
+                  class="hvr-bubble-float-bottom"
                 />
                 <a
                   class="navbar-brand aquatico-regular lead text-shadow-1"
@@ -266,7 +355,10 @@
                   >PevSuits</a
                 >
                 <p class="text-justify text-sm my-3 roboto-regular">
-                  Our vision is global suit fashion leadership through exceptional tailoring and timeless designs, while our mission is to empower individuals with meticulously crafted suits that set new standards for style and excellence.
+                  Our vision is global suit fashion leadership through
+                  exceptional tailoring and timeless designs, while our mission
+                  is to empower individuals with meticulously crafted suits that
+                  set new standards for style and excellence.
                 </p>
               </div>
             </div>
@@ -347,5 +439,10 @@
       </footer>
     </div>
     <script type="module" src="/main.js"></script>
+    <script src="./public/glide/jquery-3.5.1.js"></script>
+    <script src="./public/glide/glide.js"></script>
+    <script>
+      new Glide(".glide").mount();
+    </script>
   </body>
 </html>

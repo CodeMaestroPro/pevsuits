@@ -71,3 +71,9 @@
     background-position: center center;
     background-size: cover;
   }
+
+  .img-testimonial {
+    width: 132px !important;
+    height: 132px !important;
+    border-radius: 64px !important;
+  }
