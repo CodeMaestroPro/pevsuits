@@ -1,79 +1,93 @@
-@import 'mdb-ui-kit/css/mdb.min.css';
+@import "mdb-ui-kit/css/mdb.min.css";
 
 @font-face {
-    font-family: "Aquatico Regular";
-    src: url("./public/font/Aquatico-Regular.otf");
+  font-family: "Aquatico Regular";
+  src: url("./public/font/Aquatico-Regular.otf");
 }
 
 @font-face {
-    font-family: "Roboto Regular";
-    src: url("./public/font/Roboto-Regular.ttf");
+  font-family: "Roboto Regular";
+  src: url("./public/font/Roboto-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Roboto Medium";
-    src: url("./public/font/Roboto-Medium.ttf");
+  font-family: "Roboto Medium";
+  src: url("./public/font/Roboto-Medium.ttf");
 }
 
 @font-face {
-    font-family: "Roboto Bold";
-    src: url("./public/font/Roboto-Bold.ttf");
+  font-family: "Roboto Bold";
+  src: url("./public/font/Roboto-Bold.ttf");
 }
 
 .aquatico-regular {
-    font-family: "Aquatico Regular" !important;
+  font-family: "Aquatico Regular" !important;
 }
 
 .roboto-regular {
-    font-family: "Roboto Regular" !important;
+  font-family: "Roboto Regular" !important;
 }
 
 .roboto-medium {
-    font-family: "Roboto Medium" !important;
+  font-family: "Roboto Medium" !important;
 }
 
 .roboto-bold {
-    font-family: "Roboto Bold" !important;
+  font-family: "Roboto Bold" !important;
 }
 
 .bg-transparent {
-    background-color: rgba(14, 15, 31, 0.6) !important;
+  background-color: rgba(14, 15, 31, 0.6) !important;
+}
+
+.bg-transparent-2 {
+  background-color: rgba(14, 15, 31, 0.25) !important;
 }
 
 .text-justify {
-    text-align: justify !important;
+  text-align: justify !important;
 }
 
 .my-generic {
-    margin-top: 8rem !important;
-    margin-bottom: 6rem !important;
+  margin-top: 8rem !important;
+  margin-bottom: 6rem !important;
 }
 
 .icon-square {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 3rem;
-    height: 3rem;
-    font-size: 1.5rem;
-    border-radius: .75rem;
-  }
-  
-  .rounded-4 { border-radius: .5rem; }
-  .rounded-5 { border-radius: 1rem; }
-  
-  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
-  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
-  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
-  
-  .card-cover {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: 0.75rem;
+}
 
-  .img-testimonial {
-    width: 132px !important;
-    height: 132px !important;
-    border-radius: 64px !important;
-  }
+.rounded-4 {
+  border-radius: 0.5rem;
+}
+.rounded-5 {
+  border-radius: 1rem;
+}
+
+.text-shadow-1 {
+  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-2 {
+  text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-3 {
+  text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.img-testimonial {
+  width: 132px !important;
+  height: 132px !important;
+  border-radius: 64px !important;
+}
