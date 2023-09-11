@@ -23,7 +23,31 @@
       <!-- page header -->
       <header>
         <!-- navbar -->
-        <nav id="navbar"></nav>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white rounded mb-5"  id="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand aquatico-regular" href="#">PevSuits</a>
+            <button
+              class="navbar-toggler bg-light"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="bi bi-list bg-white text-info rounded"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto roboto-regular">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+                
+              </div>
+            </div>
+          </div>
+        </nav>
 
         <!-- hero -->
         <div class="row justify-content-center mt-3 mb-5">
@@ -110,7 +134,7 @@
       <!-- main content -->
       <main class="py-5">
         <!-- about us -->
-        <div class="mt-5 text-center">
+        <div class="mt-5 text-center" id="about">
           <h2 class="mb-3 aquatico-regular">About Us</h2>
           <p class="roboto-regular text-center lead">
             Discover the epitome of luxury and comfort at our exquisite suites –
@@ -196,7 +220,7 @@
         </div>
 
         <!-- services -->
-        <div class="my-generic text-center">
+        <div class="my-generic text-center" id="services">
           <h2 class="mb-3 mt-5 aquatico-regular">Services</h2>
           <p class="roboto-regular text-center lead">
             Elevate your style with our suit fashion company, offering
@@ -320,7 +344,7 @@
         </div>
 
         <!-- testimonials -->
-        <div class="my-generic text-center">
+        <div class="my-generic text-center" id="testimonials">
           <h2 class="mb-3 mt-5 aquatico-regular">Testimonials</h2>
           <p class="roboto-regular text-center lead">
             See what our customers have to say about their experiences with our
